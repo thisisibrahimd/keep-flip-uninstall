@@ -1,6 +1,7 @@
 # Keep Flip Uninstall
 
 A game where you have to choose if you would rather keep, flip or uninstall sneaker bots.
+Inpisred by [neeshat's tweet](https://twitter.com/neeshat6/status/1361066490825478144)
 
 ## Installation/Usage
 
