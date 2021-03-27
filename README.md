@@ -22,4 +22,4 @@ Create an issue and I will add it to the list of bots.
 
 ## License
 
-[MIT](https://choosealicense.com/licenses/mit/)
+MIT
