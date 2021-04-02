@@ -1,6 +1,5 @@
 const sveltePreprocess = require('svelte-preprocess');
-const adapter = require(process.env.ADAPTER || '@sveltejs/adapter-node');
-const options = JSON.stringify(process.env.OPTIONS || '{}');
+const static = require("@sveltejs/adapter-static");
 const pkg = require('./package.json');
 
 /** @type {import('@sveltejs/kit').Config} */
@@ -9,7 +8,7 @@ module.exports = {
 	// for more information about preprocessors
 	preprocess: sveltePreprocess(),
 	kit: {
-		adapter: adapter(options),
+		adapter: static(),
 
 		// hydrate the <div id="svelte"> element in src/app.html
 		target: '#svelte',
