@@ -8,6 +8,9 @@ module.exports = {
 	// for more information about preprocessors
 	preprocess: sveltePreprocess(),
 	kit: {
+		paths: {
+			base: "/" + pkg.name + "/"
+		},
 		adapter: static(),
 
 		// hydrate the <div id="svelte"> element in src/app.html
